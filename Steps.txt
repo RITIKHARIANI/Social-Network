@@ -1,0 +1,37 @@
+1) .gitignore
+2) git init and npm init
+3) npm init creates the package.json
+4) Install dependencies
+    npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+    npm i -D nodemon concurrently
+
+
+    git remote add origin https://github.com/RITIKHARIANI/Social-Network.git
+    git push -u origin master
+5) To run:
+    npm run server
+
+Connection to DB:
+Use config folder
+Make default.json for putting the link to connect to the MongoDB cluster
+Make db.js where we can call mongoose and make an async await request to connect to the MongoDB cluster
+
+Routes:
+We need different routes (GET, POST) request place for each thing like users,posts,profile
+Add validation checkers using express-validator
+This is done by adding a 2nd parameter for checking the input
+
+cosnt {name , email} = req.body 
+    This extracts name and email from req.body
+
+We use 'await' because it can return a Promise
+Models:
+Similar to Django and other DBs
+For every table we need to create Models
+So lets create User.js where we create the UserSchema
+
+
+
+Note: TO make request to github for repos and all
+Do it on backend instead of frontend
+It is more safe
