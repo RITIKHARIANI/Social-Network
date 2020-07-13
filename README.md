@@ -6,14 +6,15 @@ This is a Social Network of developers made using MERN stack.
 
 Clone the repo using:
 
+```
 git clone https://github.com/RITIKHARIANI/Social-Network.git
+````
 
 To install dependencies run:
 In the root folder:
 
 ```
 npm install
-
 ```
 
 Then,
@@ -23,7 +24,7 @@ cd client
 npm install
 ```
 
-Setup config files:
+## Setup config files:
 
 In config/default.json,
 
